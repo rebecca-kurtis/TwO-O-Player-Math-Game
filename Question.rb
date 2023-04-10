@@ -12,12 +12,12 @@ class Question
   end
 
   def question_format(current_player)
-    "#{current_player} > What does #{num1} plus #{num2} equal?"
+    "#{current_player.name} > What does #{num1} plus #{num2} equal?"
   end
 
   def player_answer(answer)
     #returns the player answer to verify if true or not
-    answer == answer
+    @answer == answer
   
   end
 
