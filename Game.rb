@@ -7,7 +7,6 @@ class Game
   def initialize
     @player_one = Player.new("Player 1")
     @player_two = Player.new("Player 2")
-    @current_player = player_one
   end
 
   def start
@@ -63,8 +62,3 @@ class Game
 
 
 end
-
-new_game = Game.new
-# p new_game.play
-
-new_game.start

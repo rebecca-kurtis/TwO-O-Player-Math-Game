@@ -1,7 +1,7 @@
 require "./Question"
+require "./Player"
+require "./Game"
 
-#Test code
 
-question = Question.new
-
-p question.question_format(1)
+new_game = Game.new
+new_game.start
